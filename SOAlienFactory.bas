@@ -1,3 +1,4 @@
+Attribute VB_Name = "SOAlienFactory"
 Option Explicit
 
 Public Function NewAlien(ByRef board As GameBoard) As SpaceObjectAlien
