@@ -1,3 +1,4 @@
+Attribute VB_Name = "GameLogic"
 Option Explicit
 Private Declare PtrSafe Function timeGetTime Lib "winmm.dll" () As Long
 Public Declare PtrSafe Sub Sleep Lib "kernel32" (ByVal Milliseconds As LongPtr)
@@ -50,4 +51,7 @@ End Sub
 Private Sub ChangeBoardLabelMissleCount(ByRef board As GameBoard)
     board.MissleCount.Caption = CStr(25 - MissleCount.Count)
 End Sub
+
+
+
 
