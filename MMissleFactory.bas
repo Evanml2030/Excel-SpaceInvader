@@ -1,3 +1,4 @@
+Attribute VB_Name = "MMissleFactory"
 Option Explicit
 
 Public Function NewMissle() As missle
