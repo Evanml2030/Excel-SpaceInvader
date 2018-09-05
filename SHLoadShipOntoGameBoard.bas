@@ -1,3 +1,4 @@
+Attribute VB_Name = "SHLoadShipOntoGameBoard"
 Option Explicit
 
 Function LoadShipOntoBoard(ByRef board As GameBoard) As Control
