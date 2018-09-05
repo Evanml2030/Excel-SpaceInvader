@@ -1,3 +1,4 @@
+Attribute VB_Name = "SHMoveShip"
 Public Function moveShipLeft(ByRef board As GameBoard)
 Dim ShipCntrl                       As Control
 Set ShipCntrl = board.Controls(Ship.ImageName)
