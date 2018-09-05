@@ -1,3 +1,4 @@
+Attribute VB_Name = "MMoveMissles"
 Option Explicit
 
 Sub MoveMissleObjects(ByRef board As GameBoard)
@@ -30,4 +31,3 @@ Private Sub MoveMissleObject(ByRef missleObject As missle, ByRef missleObjectCnt
     missleObject.top = missleObject.top - 1
     missleObjectCntrl.top = missleObject.top
 End Sub
-
