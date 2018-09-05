@@ -1,3 +1,4 @@
+Attribute VB_Name = "CollisionsShipSpaceObject"
 Option Explicit
 
 Function HandleShipSpaceObjectCollisions(ByRef board As GameBoard) As Boolean
