@@ -1,0 +1,12 @@
+Option Explicit
+
+Private Sub UserForm_KeyDown(ByVal KeyCode As MSForms.ReturnInteger, ByVal Shift As Integer)
+Dim passVal As Long
+
+    Select Case KeyCode
+        Case "37", "39", "32"
+            passVal = CInt(KeyCode)
+            GameLogic.HandleSendKeys Me, passVal
+    End Select
+End Sub
+
