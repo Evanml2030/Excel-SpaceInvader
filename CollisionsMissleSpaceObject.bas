@@ -1,3 +1,4 @@
+Attribute VB_Name = "CollisionsMissleSpaceObject"
 Option Explicit
 
 Sub HandleMissleSpaceObjectCollisions(ByRef board As GameBoard)
@@ -30,5 +31,3 @@ Dim vOverlap                        As Boolean
     vOverlap = (missle.top - spaceObject.height < spaceObject.top) And (spaceObject.top < missle.top + missle.height)
     CheckIfCollided = hOverlap And vOverlap
 End Function
-
-
