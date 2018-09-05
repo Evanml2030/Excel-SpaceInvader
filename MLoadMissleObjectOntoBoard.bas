@@ -1,3 +1,4 @@
+Attribute VB_Name = "MLoadMissleObjectOntoBoard"
 Option Explicit
 
 Sub LoadMissleObjectOntoBoard(ByRef board As GameBoard)
@@ -33,3 +34,4 @@ End Sub
 Private Sub AddMissleObjectCntrlToCntrlsCol(ByRef cntrl As Control)
     MissleCntrlsCol.Add cntrl
 End Sub
+
