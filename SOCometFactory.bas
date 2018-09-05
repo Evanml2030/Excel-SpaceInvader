@@ -1,3 +1,4 @@
+Attribute VB_Name = "SOCometFactory"
 Option Explicit
 
 Public Function NewComet(ByRef board As GameBoard) As SpaceObjectComet
@@ -21,3 +22,4 @@ End Function
 Private Sub IncrementSpaceObjectCount()
     SpaceObjectCount.IncrementCount
 End Sub
+
