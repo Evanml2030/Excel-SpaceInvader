@@ -8,4 +8,8 @@ You can find these inside Ship.cls, MissleFactory, AlienFactory, CometFactory, S
 
 Refactored and now functional.
 
+The stopwatch was created by the author of http://bytecomb.com/, a great tool
+
+The clip art comes from https://openclipart.org/
+
 Want to work on the presenter class, add heat seeking missiles, shields and a raid boss before I "finish" project.
