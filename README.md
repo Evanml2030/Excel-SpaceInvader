@@ -5,7 +5,7 @@ This code runs from Excel
 
 .frx file must in same directory as .frm file to be able to import the frm file
 
-You must also place all of the "skins" for the space objects, the jpgs, inside the same directory as the excel file that you are launching this from. We are uploading via code that reads  ActiveWorkbook.Path & "SpaceShip.jpg", ActiveWorkbook.Path & "Missile.jpg" etc
+You must also place all of the "skins" for the space objects, the jpgs, inside the same directory as the excel file that you are launching this from. We are uploading via code that reads  ActiveWorkbook.Path & "\SpaceShip.jpg", ActiveWorkbook.Path & "Missile.jpg" etc
 
 Refactored and now functional
 
