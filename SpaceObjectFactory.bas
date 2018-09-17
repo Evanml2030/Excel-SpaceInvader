@@ -1,4 +1,3 @@
-Attribute VB_Name = "SpaceObjectFactory"
 Option Explicit
 
 Public Function NewSpaceObjectShip(ByVal board As GameBoard) As SpaceObjectShip
@@ -8,7 +7,7 @@ Dim height                          As Long
     width = 15
     height = 30
     With New SpaceObjectShip
-        .ImgPathWay = "C:\Users\evanm\OneDrive\Desktop\Excel\SpaceInvader\SpaceShip.jpg"
+        .ImgPathWay = ActiveWorkbook.Path & "SpaceShip.jpg"
         .SetInitialLeft board.width / 2
         .SetInitialTop board.height - (board.height / 8.5)
         .height = height
@@ -26,7 +25,7 @@ Dim height                          As Long
     height = 30
     IncrementMissileCount
     With New SpaceObjectMissile
-        .ImgPathWay = "C:\Users\evanm\OneDrive\Desktop\Excel\SpaceInvader\Missile.jpg"
+        .ImgPathWay = ActiveWorkbook.Path & "\Missile.jpg"
         .SetInitialLeft ((CollectionShips.Item(1).spaceObject.width - width) / 2) + CollectionShips.Item(1).spaceObject.left
         .SetInitialTop CollectionShips.Item(1).spaceObject.top - height
         .height = height
@@ -48,7 +47,7 @@ Dim height                          As Long
     height = 20
     IncrementIncSpaceObjectCount
     With New SpaceObjectAlien
-        .ImgPathWay = "C:\Users\evanm\OneDrive\Desktop\Excel\SpaceInvader\AlienShip.jpg"
+        .ImgPathWay = ActiveWorkbook.Path & "\AlienShip.jpg"
         .SetInitialLeft Application.WorksheetFunction.RandBetween(0, board.InsideWidth - width)
         .SetInitialTop 0
         .height = height
@@ -66,7 +65,7 @@ Dim height                          As Long
     height = 20
     IncrementIncSpaceObjectCount
     With New SpaceObjectComet
-        .ImgPathWay = "C:\Users\evanm\OneDrive\Desktop\Excel\SpaceInvader\Comet.jpg"
+        .ImgPathWay = ActiveWorkbook.Path & "\Comet.jpg"
         .SetInitialLeft Application.WorksheetFunction.RandBetween(0, board.InsideWidth - width)
         .SetInitialTop 0
         .width = width
@@ -84,7 +83,7 @@ Dim height                          As Long
     height = 40
     IncrementIncSpaceObjectCount
     With New SpaceObjectStar
-        .ImgPathWay = "C:\Users\evanm\OneDrive\Desktop\Excel\SpaceInvader\Star.jpg"
+        .ImgPathWay = ActiveWorkbook.Path & "\Star.jpg"
         .SetInitialLeft Application.WorksheetFunction.RandBetween(0, board.InsideWidth - width)
         .SetInitialTop 0
         .width = width
