@@ -7,7 +7,7 @@ Dim height                          As Long
     width = 15
     height = 30
     With New SpaceObjectShip
-        .ImgPathWay = ActiveWorkbook.Path & "SpaceShip.jpg"
+        .ImgPathWay = ActiveWorkbook.Path & "\SpaceShip.jpg"
         .SetInitialLeft board.width / 2
         .SetInitialTop board.height - (board.height / 8.5)
         .height = height
