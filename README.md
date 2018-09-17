@@ -1,14 +1,13 @@
 # SpaceInvader
 VBA version of a classic game
 
-This code runs from Excel.
-
-Will not run unless you change the pathways to image that will be uploaded into form controls.
-You can find these inside Ship.cls, MissleFactory, AlienFactory, CometFactory, StarFactory
+This code runs from Excel
 
 .frx file must in same directory as .frm file to be able to import the frm file
 
-Refactored and now functional.
+You must also place all of the "skins" for the space objects, the jpgs, inside the same directory as the excel file that you are launching this from. We are uploading via code that reads  ActiveWorkbook.Path & "SpaceShip.jpg", ActiveWorkbook.Path & "Missile.jpg" etc
+
+Refactored and now functional
 
 The stopwatch was created by the author of http://bytecomb.com/, a great tool
 
