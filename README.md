@@ -9,6 +9,8 @@ You must also place all of the "skins" for the space objects, the jpgs, inside t
 
 Refactored and now functional
 
+Two play a second game you must hit reset inside VBAs IDE. Xing out of the userform and clicking button to start a second round will crash application. I would fix this however I am working on a new version already, want to to focus on that.
+
 The stopwatch was created by the author of http://bytecomb.com/, a great tool
 
 The clip art comes from https://openclipart.org/
