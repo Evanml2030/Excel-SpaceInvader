@@ -1,7 +1,7 @@
 # SpaceInvader
 VBA version of a classic game
 
-This code runs from excel Excel.
+This code runs from Excel.
 
 Will not run unless you change the pathways to image that will be uploaded into form controls.
 You can find these inside Ship.cls, MissleFactory, AlienFactory, CometFactory, StarFactory
