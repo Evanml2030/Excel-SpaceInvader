@@ -5,6 +5,8 @@ This code runs from Excel
 
 .frx file must in same directory as .frm file to be able to import the frm file
 
+Note that I am using the Microsoft Scripting Runtime Library
+
 You must also place all of the "skins" for the space objects, the jpgs, inside the same directory as the excel file that you are launching this from. We are uploading via code that reads  ActiveWorkbook.Path & "\SpaceShip.jpg", ActiveWorkbook.Path & "Missile.jpg" etc
 
 Positive: I have decoupled the view from the control / presenter. I have implemented what I think is an MVP style design. I have refactored much of the code, making it leaner and meaner. I explored was to reduce the number of factories, but found that I to either A) create classes with "constructor" that set initial values B) store initial values in separate functions that I call from the factory method. I felt that my solution was most elegant of these.
@@ -19,4 +21,4 @@ My handle ship incoming space objects collision function is not working at all L
 
 Here is the code. Note the gameboard form wont load without frx file, which I cannot post here:
 
-Note that I am using the Microsoft Scripting Runtime Library
+
