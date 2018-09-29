@@ -18,3 +18,6 @@ Second I have moved from a custom collection to a dictionary as my method of sto
 If CheckIfCollided(GamePiecesCollection.Item(MissileKey), GamePiecesCollection.Item(IncomingSpaceObjectKey)) Then
 
 My handle ship incoming space objects collision function is not working at all LOL. Almost makes me want to switch back to a custom collection. But for some reason I thought that a dictionary would make condensing all of my collections, that is storing my ship, missiles and incoming space objects in the same collection, would be easier than fitting them into a custom collection.
+
+
+Also I realize I need to get acclimated with RubberDuck IDE tools and indent, in next iteration I will have it down :-p
