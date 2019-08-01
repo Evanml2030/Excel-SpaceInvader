@@ -3,7 +3,9 @@ VBA version of a classic game
 
 Has been updated !
 
-Thank you all for your time!
+Thank you all for your time! Running much more smoothly now. 
+
+Want to add a boss mode, missile cap/pack
 
 Big ups to:
 https://openclipart.org/ for the missile, ship and stormtrooper clip art
