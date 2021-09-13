@@ -5,6 +5,6 @@ Has been updated !
 
 Thank you all for your time! Running much more smoothly now. 
 
-Want to add a boss mode, missile cap/pack
+Want to add a boss mode, missile cap/pack.
 
-Thank you https://openclipart.org/ for the missile, ship and stormtrooper clip art
+Thank you https://openclipart.org/ for the missile, ship and stormtrooper clip art.
